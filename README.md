@@ -1,6 +1,6 @@
 ## **📌 MedBioRAG: Semantic Search & Retrieval-Augmented Generation for Biomedical QA**  
 
-![Overview](figures/overview.pdf)  
+![Overview](figures/overview.png)  
 
 MedBioRAG is a **state-of-the-art system combining Semantic Search, Retrieval-Augmented Generation (RAG), and Fine-tuning** to enhance Large Language Model (LLM) performance in **biomedical question answering (QA).**  
 
@@ -15,7 +15,7 @@ MedBioRAG is a **state-of-the-art system combining Semantic Search, Retrieval-Au
 1. **Hybrid Search Mechanism**  
    - Utilizes **Semantic Search (context-based retrieval)** + **Lexical Search (keyword-based retrieval)**  
    - Ensures accurate document retrieval for precise answers  
-   - 📊 **[Top-K Retrieval Performance](figures/top-k.pdf)** → Performance analysis of retrieval quality  
+   - ![Top-K Retrieval Performance](figures/top-k.png)  
 
 2. **Retrieval-Augmented Generation (RAG)**  
    - Generates **factual and context-aware answers** using retrieved documents  
@@ -24,12 +24,12 @@ MedBioRAG is a **state-of-the-art system combining Semantic Search, Retrieval-Au
 3. **Fine-Tuned Model for Improved Performance**  
    - Trained on MedQA, BioSQA, PubMedQA, and other datasets  
    - **Domain-specific knowledge adaptation** for consistency and factual accuracy  
-   - 📈 **[Task-Wise Performance](figures/task-wise-performance.pdf)** → Evaluation metrics for various QA tasks  
+   - ![Task-Wise Performance](figures/task-wise-performance.png)  
 
 4. **Support for Multiple QA Tasks**  
    - **Close-ended QA (multiple-choice, selection-based answers)**  
    - **Long-form QA (detailed answer generation)**  
-   - 📊 **[Performance Summary](figures/performance_summary.pdf)** → Comparative performance results  
+   - ![Performance Summary](figures/performance_summary.png)  
 
 ---  
 
@@ -64,14 +64,12 @@ python evaluate.py --config configs/eval_config.yaml
 
 **2️⃣ Close-ended QA Performance**  
 - Achieves higher accuracy on MedQA, PubMedQA, and BioASQ  
-- 📈 **[Task-Wise Performance](figures/task-wise-performance.pdf)**  
+- ![Task-Wise Performance](figures/task-wise-performance.png)  
 
 **3️⃣ Long-form QA Performance**  
 - MedBioRAG improves **ROUGE and BLEU scores over GPT-4o**  
 - Enhances **response coherence and factual accuracy**  
-- 📊 **[Performance Summary](figures/performance_summary.pdf)**  
-
-
+- ![Performance Summary](figures/performance_summary.png)  
 
 ---  
 

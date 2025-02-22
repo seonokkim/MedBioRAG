@@ -31,35 +31,11 @@ MedBioRAG is a **state-of-the-art system combining Semantic Search, Retrieval-Au
    - **Close-ended QA (multiple-choice, selection-based answers)**  
    - **Long-form QA (detailed answer generation)**  
 
----  
-
-## **⚙️ Installation & Setup**  
-
-### **1️⃣ Set Up Environment**  
-```bash
-git clone https://github.com/seonokkim/MedBioRAG.git
-cd MedBioRAG
-pip install -r requirements.txt
-```
-
-### **2️⃣ Download & Preprocess Data**  
-```bash
-python scripts/download_datasets.py
-python scripts/preprocess_data.py
-```
-
-### **3️⃣ Train & Evaluate Model**  
-```bash
-python train.py --config configs/train_config.yaml
-python evaluate.py --config configs/eval_config.yaml
-```
 
 ---  
-
 
 
 ## **🧪 Experimental Results**  
-![Task-Wise Performance](figures/task-wise-performance.png)  
 
 **1️⃣ Document Retrieval Performance**  
 - Semantic Search outperforms traditional Lexical Search in **NDCG and MRR scores**  
@@ -67,12 +43,10 @@ python evaluate.py --config configs/eval_config.yaml
 
 **2️⃣ Close-ended QA Performance**  
 - Achieves higher accuracy on MedQA, PubMedQA, and BioASQ  
-- 📈 **[Task-Wise Performance](figures/task-wise-performance.pdf)**  
 
 **3️⃣ Long-form QA Performance**  
 - MedBioRAG improves **ROUGE and BLEU scores over GPT-4o**  
 - Enhances **response coherence and factual accuracy**  
-- 📊 **[Performance Summary](figures/performance_summary.pdf)**  
 
 
 

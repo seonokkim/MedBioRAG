@@ -17,7 +17,6 @@ MedBioRAG is a **state-of-the-art system combining Semantic Search, Retrieval-Au
 1. **Hybrid Search Mechanism**  
    - Utilizes **Semantic Search (context-based retrieval)** + **Lexical Search (keyword-based retrieval)**  
    - Ensures accurate document retrieval for precise answers  
-   - 📊 **[Top-K Retrieval Performance](figures/top-k.pdf)** → Performance analysis of retrieval quality  
 
 2. **Retrieval-Augmented Generation (RAG)**  
    - Generates **factual and context-aware answers** using retrieved documents  
